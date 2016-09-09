@@ -1,0 +1,30 @@
+.Quiz-question {
+}
+
+.Quiz-question h2 {
+  border-bottom: 2px solid #222;
+}
+
+.Quiz-answers {
+  padding-left: 20px;
+}
+.Quiz-answer {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.Quiz-answer.selected {
+  font-weight: bold;
+}
+.Quiz-answer.correct {
+  color: green !important;
+  opacity: 1 !important;
+  //transition: color 0s linear 0.5s;
+}
+.Quiz-answer.wrong {
+  color: red !important;
+  opacity: 1 !important;
+  //transition: color 0s linear 0.5s;
+}
+.Quiz-answer:hover {
+  color: #999;
+}
